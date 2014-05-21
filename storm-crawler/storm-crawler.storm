@@ -1,0 +1,6 @@
+topology:
+- name: crawl
+  jar: storm-crawler-0.1-SNAPSHOT-jar-with-dependencies.jar
+  topologyclass: com.digitalpebble.storm.crawler.CrawlTopology
+  packaging: mvn package
+  repository: https://github.com/DigitalPebble/storm-crawler.git
