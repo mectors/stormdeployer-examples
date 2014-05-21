@@ -4,7 +4,6 @@ topology:
   topologyclass: storm.starter.WordCountTopology
   packaging: mvn package
   repository: https://github.com/hackreduce/storm-hackathon.git
-topology:
 - name: exclamation
   jar: storm-hackathon-1.0-SNAPSHOT-jar-with-dependencies.jar
   topologyclass: storm.starter.ExclamationTopology
