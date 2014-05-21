@@ -1,0 +1,7 @@
+topology:
+- name: feedTopology
+  jar: storm-feeds-example-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+  topologyclass: datasalt.storm.feeds.FeedTopology
+  packaging: mvn package
+  repository: https://github.com/pereferrera/storm-feeds-example.git
+
