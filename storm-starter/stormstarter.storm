@@ -1,0 +1,7 @@
+topology:
+- name: ExclamationTopology
+  jar: jar of the topology
+  topologyclass: storm.starter.ExclamationTopology
+  packaging: mvn package
+  repository: git://github.com/apache/incubator-storm.git
+
